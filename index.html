@@ -10,10 +10,25 @@
   </head>
   <body>
     <div class="container">
-      <iframe src="https://goo.gl/forms/VIEW6LaQHLEzMqrp2" width="760" height="700" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+
+        <div class="row">
+
+<div class="col">
+<iframe src="https://goo.gl/forms/VIEW6LaQHLEzMqrp2" width="760" height="700" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+</div>
 
 
-      <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTwFxG_GUY-OoWdi6h3RA4GWfloIJR0NO0G5Krljo-DkfEOHrKm4U9Ee-ehPBNkcInuI1MEgZt044EE/pubhtml?gid=1154967097&single=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+<div class="col">
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTwFxG_GUY-OoWdi6h3RA4GWfloIJR0NO0G5Krljo-DkfEOHrKm4U9Ee-ehPBNkcInuI1MEgZt044EE/pubhtml?gid=1154967097&single=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+</div>
+         </div>
+
+
+
+      
+
+
+      
 
     </div>
     <!-- Optional JavaScript -->
@@ -21,5 +36,20 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+<script>
+        $(document).ready(function () {
+            $('.container').css('width', $(window).width());
+            $('.container').css('height', $(window).height());
+        });
+        $(window).resize(function () {
+            $('.container').css('width', $(window).width());
+            $('.container').css('height', $(window).height());
+        });
+    </script>
+
+
+
   </body>
 </html>
